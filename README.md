@@ -20,3 +20,54 @@ To get started with ThreeSpark, clone the repository and install the dependencie
 git clone https://github.com/onur-celik/three-spark.git
 cd three-spark
 npm install
+```
+
+## Usage
+
+To start the development server:
+
+```bash
+npm start
+```
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+The project structure is organized into different folders for better maintainability:
+
+```
+src/
+│
+├── index.ts          # Main entry point
+├── style.css         # Global styles
+├── scenes/
+│   ├── SceneSetup.ts # Scene setup with camera and renderer
+│
+├── objects/
+│   ├── Cube.ts       # Cube object with shadow casting
+│   ├── Plane.ts      # Plane object to receive shadows
+│
+├── lights/
+│   ├── Lights.ts     # Ambient and directional lights
+```
+
+## Adding a Favicon
+
+To add a favicon to your project, place your `favicon.ico` file in the `src` directory. The favicon will be automatically copied to the `dist` directory during the build process.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+If you want to contribute to this project, feel free to open a pull request or file an issue on GitHub.
+
+## Contact
+
+For any inquiries or questions, please contact [Mustafa Onur Celik](mailto:onurcelik@me.com).
