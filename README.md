@@ -2,6 +2,12 @@
 
 ThreeSpark is a starter project for Three.js with TypeScript, dat.gui, and GSAP. This project provides a solid foundation for building interactive 3D applications using Three.js, with enhanced features for smooth animations and intuitive user interfaces.
 
+## Demo
+
+You can see a live demo of this project at the following URL:
+
+[ThreeSpark Demo](https://onur-celik.github.io/three-spark)
+
 ## Features
 
 - **Three.js**: A powerful library for creating 3D graphics in the browser.
