@@ -17,6 +17,24 @@ controls.dampingFactor = 0.25;
 controls.enableZoom = true;
 controls.autoRotate = true;
 
+declare global {
+  interface Window {
+      threeSpark: {
+        scene : THREE.Scene,
+        camera: THREE.PerspectiveCamera,
+        renderer : THREE.Renderer,
+        controls :OrbitControls,  
+      }
+  }
+}
+
+window.threeSpark = {
+  scene,
+  camera,
+  renderer,
+  controls
+}
+
 // Cube
 const cube = new Cube();
 scene.add(cube.mesh);
