@@ -5,6 +5,7 @@ import { SceneSetup } from './scenes/SceneSetup';
 import { Lights } from './lights/Lights';
 import { Cube } from './objects/Cube';
 import { Plane } from './objects/Plane';
+import * as THREE from "three";
 
 // Scene setup
 const sceneSetup = new SceneSetup();
